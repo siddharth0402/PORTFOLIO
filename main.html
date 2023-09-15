@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 0);
+            color: rgb(0, 123, 12);
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(0, 0, 0);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: rgb(173, 239, 173);
+
+        }
+
+        nav ul li a:hover {
+            color: rgb(0, 255, 0);
+
+        }
+
+        main hr{
+            border: 0;
+            background: #62d86a;
+            height: 1.2px;
+            margin: 40px 84px ;
+
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 90px 0;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 2.5rem;
+            /* margin : 70px 0; */
+        }
+        .leftSection.button{
+            padding: 50px 0;
+
+        }
+        .leftSection .btn {
+            padding: 12px;
+            background: green;
+            color:rgb(0, 0, 0) ;
+            border: 2px solid white;
+            border-radius:6px ;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .rightSection img {
+            width: 80%;
+        }
+
+        .text-gray{
+            color: grey;
+        }
+        .purple {
+            color: rgb(53, 211, 4);
+        }
+
+        #element {
+            color: rgb(26, 255, 0);
+        }
+        .secondSection{
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+        .secondSection h1{
+            font-size: 1.5rem;
+        }
+        .secondSection .box{
+            background: green;
+            width: 76vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+
+        }
+        .secondSection .vertical{
+            height: 93px;
+            width: 1px;
+            background-color: green;
+            margin: 0 120px;
+
+        }
+        .image-top{
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+        .vertical-title{
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-size: 14px;
+        }
+        .vertical-desc{  
+            position: relative;
+            top: 86px;
+            color: green;
+            width: 150px;
+            font-size: 9px;
+        }
+        footer{ 
+            background-color: rgb(0, 0, 0);
+        }
+        .footer{
+            display: flex ;
+            padding:  23px 122px;
+            justify-content: space-evenly;
+        }
+        .footer ul{
+            list-style: none;
+
+        }
+        .footer > div{
+            width: 123px;
+        }
+        footer .footer-rights{
+            text-align: center;
+            color: green;
+            padding: 12px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Siddharth's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, my name is <span class="purple">Siddharth</span>
+                <div>
+                    and i am a passionate
+                </div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Dpwnload Resume</button>
+                    <button class="btn">Github</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="hacker.gif" alt="">
+            </div>
+        </section>
+<hr>
+        <section class="secondSection">
+            <span class="text-gray">What have i done so far</span>
+            <h1>Work Experience</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class = "image-top"src="dev.png" alt="">
+                    <div class="vertical-title">
+                        mast hacker 2010-2012
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore nesciunt amet molestiae illo cupiditate, alias eum! Explicabo, repudiandae nulla suscipit hic doloremque odit ratione eius similique laboriosam deserunt! Ratione, quae.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class = "image-top"src="html.png" alt="">
+                    <div class="vertical-title">
+                        mast hacker 2010-2012
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore nesciunt amet molestiae illo cupiditate, alias eum! Explicabo, repudiandae nulla suscipit hic doloremque odit ratione eius similique laboriosam deserunt! Ratione, quae.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class = "image-top"src="dev.png" alt="">
+                    <div class="vertical-title">
+                        mast hacker 2010-2012
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore nesciunt amet molestiae illo cupiditate, alias eum! Explicabo, repudiandae nulla suscipit hic doloremque odit ratione eius similique laboriosam deserunt! Ratione, quae.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class = "image-top"src="dev.png" alt="">
+                    <div class="vertical-title">
+                        mast hacker 2010-2012
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore nesciunt amet molestiae illo cupiditate, alias eum! Explicabo, repudiandae nulla suscipit hic doloremque odit ratione eius similique laboriosam deserunt! Ratione, quae.
+                    </div>
+                </div> 
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <dif class="footer-first">
+                <h3>
+                    Siddharth's developer portfolio
+                </h3>
+            </dif>
+            <div class="footer-second">
+                <ul>
+                    <li>home</li>
+                    <li>about</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>home</li>
+                    <li>about</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>home</li>
+                    <li>about</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div> 
+        </div>
+        <div class="footer-rights">
+            all rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer,', 'Graphic Designer,', 'Hacker.'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</body>
+
+</html>
